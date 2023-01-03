@@ -7,7 +7,7 @@
 | OpenCore | 0.8.6                   |
 | macOS    | Mojave 10.14.6 |
 
-- Supported macOS versions: High Sierra, Mojave, Catalina (Big Sur and above has not been tested)
+- Supported macOS versions: High Sierra, Mojave, Catalina (Big Sur and above has not been tested) (Use Mojave and newer if you want Wi-Fi with the AR9485)
 
 ## Info / Disclaimer
 ### Info
@@ -22,17 +22,19 @@
 - Remember to disable Apple Secure Boot before installing any version older than Big Sur (Enabled by default).
 ### Issues
 - Sleep doesn't work (can't really test anyway because my power button is wacky)
-- Audio over HDMI not tested
+- HDMI not tested
 - Most kexts are DEBUG versions
 - Card reader doesn't work
 - Touchpad doesn't work (probably fine since it's trash anyway)
 - No Bluetooth
 - No brightness control using hotkeys
+- Other issues that I haven't found out
 ### Notes
 - Don't use case-sensitive APFS if you want to use Steam or Adobe tools.
 - After installation, open System Preferences and go to Displays -> Color, uncheck `Show profiles for this display only`, then select `sRGB IEC61966-2.1`, this will make your colors look *somewhat* right (definitely not calibrated or anything but yeah, not an oversaturated mess)
  
 ![color](https://media.discordapp.net/attachments/885809091459575828/966112499487346718/unknown.png)
+(screenshot is from big sur but you get the point)
 ## Hardware
 - CPU: Intel Core i3-5005U (2c/4t, 0.8/2.0GHz, 3MB L3 cache)
 - iGPU: Intel HD Graphics 5500
